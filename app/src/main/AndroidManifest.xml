@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cjj.bb" >
+
+    <application
+        android:allowBackup="true"
+        android:name=".activity.ABPlayerApplication"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- bili网页内容界面 -->
+        <activity
+            android:name=".activity.BiliWebviewActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 动画列表内容界面 -->
+        <activity
+            android:name=".activity.DonghuaActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyTheme"  >
+        </activity>
+        <!-- 视频详细内容界面 -->
+        <activity
+            android:name=".activity.VideoInfoActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 网络电视界面 -->
+        <activity
+            android:name=".activity.TVActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 视频播放界面 -->
+        <activity
+            android:name=".activity.VideoViewActivity"
+            android:configChanges="orientation|screenSize|smallestScreenSize|keyboard|keyboardHidden|navigation"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:process=":vitamio"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+        </activity>
+        <!-- 初始化界面 -->
+        <activity
+            android:name="io.vov.vitamio.activity.InitActivity"
+            android:configChanges="orientation|screenSize|smallestScreenSize|keyboard|keyboardHidden|navigation"
+            android:launchMode="singleTop"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+        </activity>
+
+        <activity
+            android:name=".activity.BiliVideoViewActivity"
+            android:configChanges="orientation|screenSize|smallestScreenSize|keyboard|keyboardHidden|navigation"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:process=":vitamio"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateAlwaysHidden">
+        </activity>
+
+        <service
+            android:name=".view.PlayerService"
+            android:process=":vitamio" />
+        <!--<service-->
+            <!--android:name="io.vov.vitamio.VitamioService"-->
+            <!--android:exported="false" >-->
+            <!--<intent-filter>-->
+                <!--<action android:name="io.vov.vitamio.IVitamioService" />-->
+            <!--</intent-filter>-->
+        <!--</service>-->
+
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="${UMENG_CHANNEL_VALUE}" />
+
+
+    </application>
+
+</manifest>

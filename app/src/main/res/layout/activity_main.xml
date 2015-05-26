@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bilibg"
+    android:orientation="vertical" >
+    
+<include layout="@layout/main_head" />
+
+    <viewpagerindicator.TitlePageIndicator
+        android:id="@+id/indicator"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:footerColor="#ff91e4"
+        app:footerLineHeight="1dp"
+        app:footerIndicatorHeight="3dp"
+        app:footerIndicatorStyle="underline"
+        app:selectedColor="#FFffff"
+        android:textColor="#f2f2f2"
+        app:selectedBold="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bili_red" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>

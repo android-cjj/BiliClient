@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="F:\cjj\BilibiliClient\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="F:\cjj\BilibiliClient\app\build\intermediates\pre-dexed\debug\classes-0b1567034b383eea9602ab8ca4de9dcfd8b211ac.jar" />
+    </item>
+    <item
+        jar="F:\cjj\BilibiliClient\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.1.1\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="F:\cjj\BilibiliClient\app\build\intermediates\pre-dexed\debug\classes-c4a1cb753190a73695b2d580afb2ef165bba844f.jar" />
+    </item>
+    <item
+        jar="F:\cjj\BilibiliClient\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\libs\internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="F:\cjj\BilibiliClient\app\build\intermediates\pre-dexed\debug\internal_impl-22.1.1-fa6fb693979d3a53cbdb14e179d859b5a7dd2a93.jar" />
+    </item>
+    <item
+        jar="D:\as\sdk-install\extras\android\m2repository\com\android\support\support-annotations\22.1.1\support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="F:\cjj\BilibiliClient\app\build\intermediates\pre-dexed\debug\support-annotations-22.1.1-9aa71a3ba86e6c16a664e6c95633631caf63c836.jar" />
+    </item>
+    <item
+        jar="F:\cjj\BilibiliClient\app\build\intermediates\exploded-aar\BilibiliClient\DanmakuFlameMaster\unspecified\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="fe0ce2a05e081fa977f4bae3cfee5e6ae368d346">
+        <dex dex="F:\cjj\BilibiliClient\app\build\intermediates\pre-dexed\debug\classes-448c44a63bc23fb40630dcda7b1ae090af4f1094.jar" />
+    </item>
+    <item
+        jar="F:\cjj\BilibiliClient\app\libs\jsoup-1.8.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3d57e95c0f150b885ccdbda7a12bef353fd31d02">
+        <dex dex="F:\cjj\BilibiliClient\app\build\intermediates\pre-dexed\debug\jsoup-1.8.1-66a56dfeb247574609b2b94d00a85b89fd9d5570.jar" />
+    </item>
+    <item
+        jar="F:\cjj\BilibiliClient\app\build\intermediates\exploded-aar\BilibiliClient\VPIndexLibrary\unspecified\libs\android-support-v4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="53307dc2bd2b69fd5533458ee11885f55807de4b">
+        <dex dex="F:\cjj\BilibiliClient\app\build\intermediates\pre-dexed\debug\android-support-v4-ca2019735ba673bf955ed6ee558d326914e7ba26.jar" />
+    </item>
+    <item
+        jar="F:\cjj\BilibiliClient\app\libs\universal-image-loader-1.9.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a85588bec3e2c4584d593d3f15df1677321bca72">
+        <dex dex="F:\cjj\BilibiliClient\app\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.3-e6fbf25d64284f9262e6e6a3d74c611bd413ff80.jar" />
+    </item>
+    <item
+        jar="F:\cjj\BilibiliClient\app\build\intermediates\exploded-aar\BilibiliClient\VPIndexLibrary\unspecified\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="2b2a06e39f595cfc7cd8673d101aae53c5fb37c4">
+        <dex dex="F:\cjj\BilibiliClient\app\build\intermediates\pre-dexed\debug\classes-e5673ed7e4165c5e01a0da2e4d193ba3041c41ff.jar" />
+    </item>
+    <item
+        jar="F:\cjj\BilibiliClient\app\build\intermediates\exploded-aar\BilibiliClient\vitamio\unspecified\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="98e8219bc0ea0cd9822d47e529feb077f8f63622">
+        <dex dex="F:\cjj\BilibiliClient\app\build\intermediates\pre-dexed\debug\classes-b96bb5ee6c7416705c51fbc8bcb538fb180a23cd.jar" />
+    </item>
+
+</items>
